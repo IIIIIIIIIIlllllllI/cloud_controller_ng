@@ -104,7 +104,7 @@ GEM
     beefcake (1.0.0)
     benchmark (0.2.0)
     bit-struct (0.17)
-    bits_service_client (3.4.0)
+    bits_service_client (4.0.0)
       activesupport
       statsd-ruby (~> 1.4.0)
       steno
@@ -323,7 +323,7 @@ GEM
       faraday (~> 0.9)
       faraday-cookie_jar (~> 0.0.6)
       ms_rest (~> 0.6.3)
-    msgpack (1.4.2)
+    msgpack (1.4.5)
     multi_json (1.15.0)
     multipart-parser (0.1.1)
     multipart-post (2.1.1)
@@ -556,7 +556,7 @@ DEPENDENCIES
   allowy (>= 2.1.0)
   awesome_print
   azure-storage-blob!
-  bits_service_client (~> 3.3, >= 3.3.0)
+  bits_service_client (~> 4.0)
   byebug
   cf-copilot (= 0.0.14)
   cf-uaa-lib (~> 4.0.1)
