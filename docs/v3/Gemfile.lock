@@ -1,7 +1,7 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    activesupport (6.1.4.1)
+    activesupport (6.1.5)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
@@ -11,7 +11,7 @@ GEM
       public_suffix (>= 2.0.2, < 5.0)
     autoprefixer-rails (10.2.5.0)
       execjs (< 2.8.0)
-    backports (3.21.0)
+    backports (3.23.0)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -26,8 +26,8 @@ GEM
     eventmachine (1.2.7)
     execjs (2.7.0)
     fast_blank (1.0.1)
-    fastimage (2.2.5)
-    ffi (1.15.4)
+    fastimage (2.2.6)
+    ffi (1.15.5)
     haml (5.2.2)
       temple (>= 0.8.0)
       tilt
@@ -90,13 +90,13 @@ GEM
     middleman-sprockets (4.1.1)
       middleman-core (~> 4.0)
       sprockets (>= 3.0)
-    middleman-syntax (2.1.0)
+    middleman-syntax (3.2.0)
       middleman-core (>= 3.2)
-      rouge (~> 1.0)
+      rouge (~> 3.2)
     mini_portile2 (2.8.0)
     mini_racer (0.4.0)
       libv8-node (~> 15.14.0.0)
-    minitest (5.14.4)
+    minitest (5.15.0)
     nokogiri (1.13.3)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
@@ -113,12 +113,12 @@ GEM
     rack-livereload (0.3.17)
       rack
     rake (13.0.6)
-    rb-fsevent (0.11.0)
+    rb-fsevent (0.11.1)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     redcarpet (3.5.1)
     rexml (3.2.5)
-    rouge (1.11.1)
+    rouge (3.28.0)
     sass (3.7.4)
       sass-listen (~> 4.0.0)
     sass-listen (4.0.0)
@@ -140,7 +140,7 @@ GEM
     uglifier (3.2.0)
       execjs (>= 0.3.0, < 3)
     webrick (1.7.0)
-    zeitwerk (2.5.1)
+    zeitwerk (2.5.4)
 
 PLATFORMS
   ruby
@@ -152,7 +152,7 @@ DEPENDENCIES
   middleman-gh-pages (>= 0.0.3)
   middleman-livereload (>= 3.4.6)
   middleman-sprockets (~> 4.1)
-  middleman-syntax (= 2.1)
+  middleman-syntax (= 3.2.0)
   mini_racer
   nokogiri (~> 1.13.3)
   rake (>= 12.3.3)
