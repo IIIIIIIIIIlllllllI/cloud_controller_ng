@@ -150,7 +150,7 @@ GEM
       eventmachine (>= 1.0.0.beta.4)
     erubi (1.10.0)
     eventmachine (1.2.7)
-    excon (0.91.0)
+    excon (0.92.0)
     faraday (0.17.4)
       multipart-post (>= 1.2, < 3)
     faraday-cookie_jar (0.0.7)
@@ -174,9 +174,9 @@ GEM
       fog-core (~> 2.1)
       fog-json (~> 1.1)
       fog-xml (~> 0.1)
-    fog-core (2.1.2)
+    fog-core (2.2.4)
       builder
-      excon (~> 0.58)
+      excon (~> 0.71)
       formatador (~> 0.2)
       mime-types
     fog-google (1.18.0)
@@ -570,7 +570,7 @@ DEPENDENCIES
   fog-aliyun
   fog-aws
   fog-azure-rm!
-  fog-core (~> 2.1.2)
+  fog-core (~> 2.2.4)
   fog-google (~> 1.18.0)
   fog-local
   fog-openstack
