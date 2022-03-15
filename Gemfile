@@ -53,7 +53,7 @@ gem 'activemodel', '~> 6.1.4', '>= 6.1.4.7'
 gem 'railties', '~> 6.1.4', '>= 6.1.4.7'
 
 # Blobstore and Bits Service Dependencies
-gem 'bits_service_client', '~> 3.3', '>= 3.3.0'
+gem 'bits_service_client', '~> 4.0'
 
 gem 'azure-storage-blob', git: 'https://github.com/sethboyles/azure-storage-ruby.git', branch: 'x-ms-blob-content-type-fix-1.1'
 
