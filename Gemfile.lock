@@ -263,7 +263,7 @@ GEM
       http-form_data (~> 2.2)
       http-parser (~> 1.2.0)
     http-accept (1.7.0)
-    http-cookie (1.0.4)
+    http-cookie (1.0.5)
       domain_name (~> 0.5)
     http-form_data (2.3.0)
     http-parser (1.2.3)
@@ -279,14 +279,14 @@ GEM
     json-schema (2.8.0)
       addressable (>= 2.4)
     json_pure (2.6.1)
-    jsonpath (1.1.0)
+    jsonpath (1.1.2)
       multi_json
     jwt (2.3.0)
     kramdown (2.3.1)
       rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
-    kubeclient (4.9.2)
+    kubeclient (4.10.0)
       http (>= 3.0, < 5.0)
       jsonpath (~> 1.0)
       recursive-open-struct (~> 1.1, >= 1.1.1)
@@ -524,7 +524,7 @@ GEM
     uber (0.1.0)
     unf (0.1.4)
       unf_ext
-    unf_ext (0.0.8)
+    unf_ext (0.0.8.2)
     unicode-display_width (2.1.0)
     vhd (0.0.4)
       bit-struct
