@@ -47,10 +47,10 @@ gem 'vmstat', '~> 2.3'
 gem 'yajl-ruby'
 
 # Rails Components
-gem 'actionpack', '~> 6.1.4', '>= 6.1.4.7'
-gem 'actionview', '~> 6.1.4', '>= 6.1.4.7'
-gem 'activemodel', '~> 6.1.4', '>= 6.1.4.7'
-gem 'railties', '~> 6.1.4', '>= 6.1.4.7'
+gem 'actionpack', '~> 7.0.4'
+gem 'actionview', '~> 7.0.4'
+gem 'activemodel', '~> 7.0.4'
+gem 'railties', '~> 7.0.4'
 
 # Blobstore and Bits Service Dependencies
 gem 'bits_service_client', '~> 3.3', '>= 3.3.0'
@@ -87,7 +87,7 @@ group :test do
   gem 'rspec-collection_matchers'
   gem 'rspec-instafail'
   gem 'rspec-its'
-  gem 'rspec-rails', '~> 5.1.1'
+  gem 'rspec-rails', '~> 6.0.1'
   gem 'rspec-wait'
   gem 'rspec_api_documentation', '>= 6.1.0'
   gem 'rubocop', '~> 1.26.0'
